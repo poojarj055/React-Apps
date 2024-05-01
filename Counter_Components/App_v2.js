@@ -20,7 +20,7 @@ export default function App() {
   );
 }
 
-function Counter({ count, setCount, counter, setCounter }) {
+function Counter({ count, setCount, counter }) {
   function inc() {
     //setCount(count + parseInt(counter));
     setCount((prevCount) => prevCount + parseInt(counter));
