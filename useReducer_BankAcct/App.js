@@ -1,6 +1,4 @@
 import { useReducer } from "react";
-import Main from "./Main.js";
-import OpenAccount from "./OpenAccount.js";
 import "./styles.css";
 
 /*
@@ -81,7 +79,6 @@ export default function App() {
     <div className="App">
       <h1>useReducer Bank Account</h1>
 
-      <Main>
         <p>Balance: {balance}</p>
         <p>Loan: {loan}</p>
         <p>
@@ -132,7 +129,7 @@ export default function App() {
             Close account
           </button>
         </p>
-      </Main>
+   
     </div>
   );
 }
