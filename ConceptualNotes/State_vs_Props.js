@@ -28,6 +28,7 @@ function App() {
       */}
 
       <h5>Question 2: What is children prop?</h5>
+        // children prop is used to create reusable components that can wrap other components or elements.
       <Card>
         <b>This is card 1</b>
       </Card>
